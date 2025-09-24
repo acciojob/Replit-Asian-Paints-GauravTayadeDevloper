@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+
+#grid-container{
+	margin-top:30px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px;
+	grid-template-areas:
+		"a b c"
+		"d e f"
+		"g h i";
+	gap:5px;
+}
+.grid-item{
+	 border:1px solid black;
+}
+#1{ grid-area: a;
+   }
+#2 { grid-area: b; }
+#3 { grid-area: c; }
+#4 { grid-area: d; }
+#5 { grid-area: e; }
+#6 { grid-area: f; }
+#7 { grid-area: g; }
+#8 { grid-area: h; }
+#9 { grid-area: i; }
