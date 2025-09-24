@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 
-#grid-container{
+.grid-container{
 	margin-top:30px;
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
